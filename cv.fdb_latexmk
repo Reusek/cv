@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1681414673 "/home/albert/proj/cv/cv.tex" "cv.pdf" "cv" 1681414673 0
+["pdflatex"] 1681414759 "/home/albert/proj/cv/cv.tex" "cv.pdf" "cv" 1681414759 0
   "/home/albert/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1681413731 2727066 9ef7e9b2a6f2f3d9f93fbbb2a619b43f ""
-  "/home/albert/proj/cv/cv.tex" 1681414672 3921 a2b452f66eed0c419e278a3e4e9fded9 ""
+  "/home/albert/proj/cv/cv.tex" 1681414758 3868 b87f3878512abf629f0acf70b61098fb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -33,8 +33,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty" 1580683321 7148 4ba718200276533b3a293c311a9349e0 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1661385786 40136 b05acc85e8425979e52682d98a2bcacf ""
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1681413481 5132490 3b5b73be92ec3d6f4a45957a9c195358 ""
-  "cv.aux" 1681414673 2140 f880c713f8c4197c1230a6191ead0d7f "pdflatex"
-  "cv.tex" 1681414672 3921 a2b452f66eed0c419e278a3e4e9fded9 ""
+  "cv.aux" 1681414759 1931 487e08b143fef26230f319aea4078a19 "pdflatex"
+  "cv.tex" 1681414758 3868 b87f3878512abf629f0acf70b61098fb ""
   (generated)
   "cv.aux"
   "cv.log"

@@ -1,0 +1,119 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=2cm]{geometry}
+\usepackage{array}
+\usepackage{tabularx}
+
+\titlespacing{\subsubsection}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+
+\titleformat{\subsubsection}[wrap]
+{\normalfont\bfseries}
+{\thesection.}{0.5em}{}
+
+\titleformat{\section}
+{\Large\bfseries\uppercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\large\bfseries}
+{}
+{1em}
+{}[]
+
+\titlespacing{\subsection}
+{0em}{1em}{0.3em}
+
+%\titlespacing{\subsubsection}
+%{0em}{0.5em}{0.1em}
+
+\renewcommand{\maketitle}{
+    \begin{center}
+        \Huge\bfseries
+        \theauthor
+
+    \end{center}
+    \begin{center}
+        Bří Čapků 707, Krásno nad Bečvou, 757 01 Valašské Meziříčí
+    \end{center}
+}
+
+\newcommand{\dsubsection}[2]{
+    \subsection{\textbf{\large{#1}}\hfill\textmd{\small{#2}}}
+}
+
+\usepackage{lipsum}
+
+
+\begin{document}
+
+\title{CV}
+\author{Albert Klinkovský}
+
+\maketitle
+
+
+
+\section{Projects}
+
+\subsection{Interpreter}
+
+\subsection{Lua compiler}
+
+
+
+\subsection{Calculator parser / interpreter}
+
+Goal of this project was to implement lexer, parser and interpreter for a mathematical calculator. The mathematical expression is represented as a string such as "1 + 1" was converted to syntax tree data structure and then processed by interpreter which returns the result.
+
+\subsection{Acoustic localization system}
+
+This is a final project at the school. The aim of this project was to locate clapping in space.  It was necessary to connect various disciplines, such as:  mathematics, physics, electronics, software development. Most of the software was written using Python and the Numpy, Scipy, PyAudio libraries.
+
+\subsection{Signal generator}
+
+This is a semester project, where we had the task to create a program for the ARM processor, which was to generate a selected function using a DA converter.  The FreeRTOS operating system was used.
+
+
+\section{Technology Summary}
+
+{\renewcommand{\arraystretch}{1.5}%
+\begin{tabularx}{\textwidth}{ >{\bfseries}l X }
+    Programming       & Python (Numpy, SciPy), Lua, JavaScript, TypeScript, PHP, Bash, C, C++, Assembly, Rust, VHDL, HTML, XML, CSS, SASS, Markdown, Latex \\
+    Software / Tools  & MS Office, Adobe CC, Blender, Ansible, Git (GitLab, GitHub, BitBucket), Trello, Grafana, Docker, UML \\
+    Database          & MySQL, MariaDB, SQLite, PostgreSQL, InfluxDB, Redis, SQLAlchemy, Diesel (Rust) \\
+    Frameworks        & Nette, Vue, React, Next.js, Django, Angular \\
+\end{tabularx}}
+
+
+\section{Work Experience}
+
+\dsubsection{ERA a.s.}{September 2021}
+
+The goal was improve DevOps workflow. I was rewriting deployment scripts written in Powershell to Python language.
+
+\dsubsection{ON Semiconductor}{June 2021 -- September 2021}
+
+I have been working as intern in international team (US). My job was to work on frontend for Self Service Portal using Angular framework.
+
+
+\section{Education}
+
+\dsubsection{Brno University of Technology}{September 2020 -- \textit{Present}}
+
+Faculty of Information Technology.
+
+\dsubsection{Střední škola informatiky elektrotechniky a řemesel RpR.}{September 2015 -- June 2020}
+
+Field of study is electronic data processing.
+
+\end{document}
